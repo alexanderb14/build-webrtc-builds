@@ -4,8 +4,7 @@ dist: trusty
 compiler:
 - clang
 os:
-- linux
-# - osx
+- osx
 before_install:
 - git clone https://github.com/vsimon/webrtcbuilds.git
 - ls
