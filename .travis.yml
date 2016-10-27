@@ -7,6 +7,7 @@ os:
 - linux
 # - osx
 before_install:
-- echo $LANG
-- ./build.sh
+- git clone https://github.com/vsimon/webrtcbuilds.git
+- ls
+- ./webrtcbuilds/build.sh
 
